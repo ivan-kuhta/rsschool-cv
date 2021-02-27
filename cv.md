@@ -3,12 +3,12 @@
 
 ---
 ## Contacts
-*Phone:* +38(067)-268-81-24
+*Phone:* +38(067)-268-81-24\
 *E-mail:* ivan.kuxta.gd@gmail.com
 
 ---
 ## Education ##
-**Lviv College of Printing** Lviv, Ukraine. 2013-2016
+**Lviv College of Printing** Lviv, Ukraine. 2013-2016\
 **Ukrainian Academy of Printing** Lviv, Ukraine. 2017-2021
 
 ---

@@ -1,13 +1,16 @@
 # Ivan-Eduard Kukhta
 *23 years old*
+
 ---
 ## Contacts
 *Phone:* +38(067)-268-81-24
 *E-mail:* ivan.kuxta.gd@gmail.com
+
 ---
-## Education
+## Education ##
 **Lviv College of Printing** Lviv, Ukraine. 2013-2016
 **Ukrainian Academy of Printing** Lviv, Ukraine. 2017-2021
+
 ---
 ## Goals
 1. Improve your skills in web technologies.
@@ -15,24 +18,26 @@
 1. Get frontend developer skills.
 1. Get experience as a frontend developer 
 1. Work as a frontend developer.
+
 ---
 ## Skills
 ### Programming languages
-1. **HTML** - I am free to use tags from HTML5 syntax.
-1. **CSS** - use CSS3.
-1. **JavaScript** - Basic knowledge of JavaScript, use of EC6 syntax and knowledge of JavaScript at the framework level
-1. **PHP** - Basic knowledge of PHP and knowledge of PHP at the level of the Laravel framework
+2. **HTML** - I am free to use tags from HTML5 syntax.
+2. **CSS** - use CSS3.
+2. **JavaScript** - Basic knowledge of JavaScript, use of EC6 syntax and knowledge of JavaScript at the framework level
+2. **PHP** - Basic knowledge of PHP and knowledge of PHP at the level of the Laravel framework
 ### Preprocessors
-1. **SASS** - syntax and compilation css files.
-1. **Less** - syntax and compilation css files.
+3. **SASS** - syntax and compilation css files.
+3. **Less** - syntax and compilation css files.
 ### Frameworks
-1. **Laravel** - creation of migrations, models, controllers, views, work with routing and storage.
-1. **React** - creation of components, work with routing, JSX syntax.
-1. **Angular** - creation of components, work with routing and services.
-1. **Bootstrap** - connection and use framework.
+4. **Laravel** - creation of migrations, models, controllers, views, work with routing and storage.
+4. **React** - creation of components, work with routing, JSX syntax.
+4. **Angular** - creation of components, work with routing and services.
+4. **Bootstrap** - connection and use framework.
 ### Database
-1. **MySQL** - creating a database and tables, also using a database.
-1. **IndexedDB** - creating and using a database.
+5. **MySQL** - creating a database and tables, also using a database.
+5. **IndexedDB** - creating and using a database.
+
 ---
 ## Simple Code
 ```
@@ -47,6 +52,7 @@ function queueTime(customers, n) {
   return arrayTills.sort((a,b) => b - a)[0];
 }
 ```
+
 ---
 ## Level of English
 A2 - Pre-Intermediate

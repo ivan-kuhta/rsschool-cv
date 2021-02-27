@@ -34,7 +34,21 @@
 1. **MySQL** - creating a database and tables, also using a database.
 1. **IndexedDB** - creating and using a database.
 ---
-## English
+## Simple Code
+```
+//This function is to calculate the total time required for all customers to place an order. As a variable customers - array of customers is the value of the time it takes to place an order, and as a variable n is the number of cash registers.
+
+function queueTime(customers, n) {
+  let arrayTills = new Array(n).fill(0);
+  customers.forEach(item => {
+    arrayTills[0] += item;
+    arrayTills = arrayTills.sort((a,b) => a - b);
+  });
+  return arrayTills.sort((a,b) => b - a)[0];
+}
+```
+---
+## Level of English
 A2 - Pre-Intermediate
 
 

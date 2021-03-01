@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="resume">
+        <div class="resume__row">
+          <section class="resume__left">
+            <h1>Resume</h1>
+            <article>
+              <h2> Education</h2>
+              <p>
+                <b>Lviv College of Printing</b> Lviv, Ukraine. 2013-2016<br>
+                <b>Ukrainian Academy of Printing</b> Lviv, Ukraine. 2017-2021
+              </p>
+            </article>
+            <article>
+              <h2>Goals</h2>
+              <ol>
+                <li>Improve your skills in web technologies.</li>
+                <li>Learning new technologies.</li>
+                <li>Learning new technologies.</li>
+                <li>Get frontend developer skills.</li>
+                <li>Get experience as a frontend developer.</li>
+                <li>Work as a frontend developer.</li>
+              </ol>
+            </article>
+            <article>
+              <h2>Skills</h2>
+              <h3><i class="fas fa-laptop-code"></i>Programming languages</h3>
+              <ol class="marker-weight-400">
+                <li><b>HTML</b> - I am free to use tags from HTML5 syntax.</li>
+                <li><b>CSS</b> - use CSS3.</li>
+                <li><b>JavaScript</b> - Basic knowledge of JavaScript, use of EC6 syntax and knowledge of JavaScript at the framework level.</li>
+                <li><b>PHP</b> - Basic knowledge of PHP and knowledge of PHP at the level of the Laravel framework.</li>
+              </ol>    
+              <h3><i class="fab fa-less"></i>Preprocessors</h3>
+              <ol class="marker-weight-400">
+                <li><b>SASS</b> - syntax and compilation css files.</li>
+                <li><b>Less</b> - syntax and compilation css files.</li>
+              </ol>
+              <h3><i class="fas fa-cubes"></i>Frameworks</h3>
+              <ol class="marker-weight-400">
+                <li><b>Laravel</b> - creation of migrations, models, controllers, views, work with routing and storage.</li>
+                <li><b>React</b> - creation of components, work with routing, JSX syntax.</li>
+                <li><b>Angular</b> - creation of components, work with routing and services.</li>
+                <li><b>Bootstrap</b> - connection and use framework.</li>
+              </ol>
+              <h3><i class="fas fa-database"></i>Database</h3>
+              <ol class="marker-weight-400">
+                <li><b>MySQL</b> - creating a database and tables, also using a database.</li>
+                <li><b>IndexedDB</b> - creating and using a database.</li>
+              </ol>
+            </article>
+            <article>
+              <h2>Simple Code</h2>
+              <p>
+                This function is to calculate the total time required for all customers to place an order. As a variable customers - array of customers is the value of the time it takes to place an order, and as a variable n is the number of cash registers.
+              </p>
+              <pre>function queueTime(customers, n) {
+  let arrayTills = new Array(n).fill(0);
+  customers.forEach(item => {
+    arrayTills[0] += item;
+    arrayTills = arrayTills.sort((a,b) => a - b);
+  });
+  return arrayTills.sort((a,b) => b - a)[0];
+}</pre>
+            </article>
+            <article>
+              <h2> Level of English</h2>
+              <p>A2 - Pre-Intermediate</p>
+            </article>
+          </section>
+          <aside class="person">
+            <img src="/img/avatar.jpg" alt="avatar" class="person__avatar">
+            <div class="person__info">
+              <article>
+                <h3 class="person__name">Ivan-Eduard Kukhta</h3>
+                <p class="person__old">
+                  <small>23 years old</small>
+                <p>
+              </article>
+              <article>
+                <h3>Contacts</h3>
+                <ul>
+                  <li><b>Phone:</b><a href="tel:+38067268124" class="phone">+38(067)-268-81-24</a></li>
+                  <li><b>E-mail:</b><a href="mailto:ivan.kuxta.gd@gmail.com" class="mail">ivan.kuxta.gd@gmail.com</a></li>
+                </ul>
+              </article>
+            </div>
+          </ф>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

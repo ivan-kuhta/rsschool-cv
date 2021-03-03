@@ -8,14 +8,11 @@ body {
   font-family: $default-font;
   font-weight: 300;
   font-size: 1.4rem;
+  padding: 20px 0;
 }
 
 *{
   box-sizing: border-box;
-}
-
-main{
-  margin: 20px 0;
 }
 
 article {

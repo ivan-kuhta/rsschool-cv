@@ -1,0 +1,25 @@
+.resume{
+  background-color: $lighttheme-bg;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.212);
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__left {
+    flex: 1 0 70%;
+    padding: 20px;
+    max-width: 100%;
+    @include breakpoint-down(medium) {
+      order: 2;
+    }
+    h3{
+      margin-left: 10px;
+      i{
+        color: $color-icon;
+        margin-right: 0.4em;
+      }
+    }
+  }
+}
+

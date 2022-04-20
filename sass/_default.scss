@@ -42,6 +42,16 @@ a{
   color: inherit;
 }
 
+li a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+address li a {
+  text-decoration: none;
+  font-weight: inherit;
+}
+
 h1, h2, h3, h4, h5, h6{
   font-weight: 400;
   margin: 0.4em 0;
